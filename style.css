@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+body {
+    background-color: #d4ccb6;
+}
+
+
+#logo{
+    display: flex;
+    position: absolute;
+    left: 360px;
+    height: 30px;
+    bottom: 740px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 149px;
+
+}
+
+.layoutesquerdo {
+    background-color: #191816;
+    height: 800px;
+    width: 620px;
+    border-top-left-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro {
+    height: 800px;
+    width: 620px;
+    border-top-right-radius: 8%;
+}
+
+.cabecalho {
+    background-color: #24221f;
+    height: 470px;
+    width: 490px;
+    border-radius: 1%;
+
+}
+
+.login {
+    position: relative;
+    left: 97px;
+    top: 25px;
+}
+
+.fraselogin {
+    font-family: Poppins;
+    color: #d4ccb6;
+    font-weight: 600;
+    font-size: 22px;
+    position: relative;
+    left: 99px;
+    top: 20px;
+}
+
+.infocadastro {
+    font-family: Poppins;
+    color: #afb6c2;
+    font-weight: 300;
+    font-size: 13px;
+    position: relative;
+    left: 100px;
+    top: 22px;
+
+}
+
+.formulario {
+    position: absolute;
+    font-family: Poppins;
+    font-weight: 300;
+    color: #afb6c2;
+    
+}
+
+.boxemail, .boxsenha {
+    height: 35px;
+    border: 2px solid #afb6c2;
+    border-radius: 3px;
+    background-color: #191816;
+}
+
+
+.boxemail{
+    background-image: url(./imagens/mail.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: center left 2%;
+    color: #afb6c2;
+   
+}
+
+.boxsenha{
+    background-image: url(./imagens/lock.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: center left 2%;
+    color: #afb6c2;
+}
+
+.boxemail:focus{
+    border-color: #ffc632;
+    border-inline: none;
+    outline-color: #ffc632;
+}
+
+.boxsenha:focus{
+    border-color: #ffc632;
+    border-inline: none;
+    outline-color: #ffc632;
+}
+.esqueciminhasenha{
+    text-decoration: none;
+    color: #ffc632;
+    margin-left: 30px;
+    font-size: 15px;
+
+}
+
+.botaoentrar{
+    background-color: #ffc632;
+    width: 300px;
+    height: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 2%;
+    cursor: pointer;
+
+}
+
+#registrese{
+    color: #ffc632;
+    font-weight: 300;
+    font-size: 14px;
+    position: absolute;
+    left: 31px;
+    bottom: -7px;
+}
